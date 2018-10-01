@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49837" started-at="2018-10-01T16:44:11Z" finished-at="2018-10-01T16:45:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49837" started-at="2018-10-01T16:44:11Z" finished-at="2018-10-01T16:45:01Z">
+      <class name="com.tests.WebsiteTest">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="3060" started-at="2018-10-01T16:44:11Z" finished-at="2018-10-01T16:44:14Z">
+        </test-method>
+        <test-method status="PASS" signature="openHomePage()" name="openHomePage" is-config="true" duration-ms="7402" started-at="2018-10-01T16:44:14Z" finished-at="2018-10-01T16:44:21Z">
+        </test-method>
+        <test-method status="PASS" signature="testAddToCart(java.lang.String, java.lang.String)" name="testAddToCart" duration-ms="14182" started-at="2018-10-01T16:44:21Z" finished-at="2018-10-01T16:44:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Electronics]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Apple Iphone X]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="openHomePage()" name="openHomePage" is-config="true" duration-ms="2662" started-at="2018-10-01T16:44:36Z" finished-at="2018-10-01T16:44:38Z">
+        </test-method>
+        <test-method status="PASS" signature="testAddToCart(java.lang.String, java.lang.String)" name="testAddToCart" duration-ms="10088" started-at="2018-10-01T16:44:38Z" finished-at="2018-10-01T16:44:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Electronics]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsun Galaxy S9]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="openHomePage()" name="openHomePage" is-config="true" duration-ms="2730" started-at="2018-10-01T16:44:48Z" finished-at="2018-10-01T16:44:51Z">
+        </test-method>
+        <test-method status="PASS" signature="testAddToCart(java.lang.String, java.lang.String)" name="testAddToCart" duration-ms="8390" started-at="2018-10-01T16:44:51Z" finished-at="2018-10-01T16:44:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Software]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Microsoft office]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="1147" started-at="2018-10-01T16:44:59Z" finished-at="2018-10-01T16:45:01Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
